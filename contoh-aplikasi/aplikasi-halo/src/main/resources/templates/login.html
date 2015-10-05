@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login Dulu Ya</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" 
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" 
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+        <link rel="stylesheet"
+              href="css/aplikasi.css"/>
+        
+    </head>
+    <body>
+        <div class="container">
+
+          <form class="form-signin" th:action="@{/login}" method="post">
+              
+              <div th:if="${param.error}" class="alert alert-error">    
+                    Invalid username and password.
+                </div>
+                <div th:if="${param.logout}" class="alert alert-success"> 
+                    You have been logged out.
+                </div>
+              
+            <h2 class="form-signin-heading">Please sign in</h2>
+            <label for="username" class="sr-only">Email address</label>
+            <input type="text" id="username" name="username" class="form-control" 
+                   placeholder="Username"/>
+            <label for="password" class="sr-only">Password</label>
+            <input type="password" id="password" name="password" 
+                   class="form-control" placeholder="Password" />
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+          </form>
+
+        </div> <!-- /container -->        
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"/>
+    </body>
+</html>
