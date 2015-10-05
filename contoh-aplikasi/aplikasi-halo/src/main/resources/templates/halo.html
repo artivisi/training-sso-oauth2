@@ -13,5 +13,6 @@ and open the template in the editor.
     <body>
         <h1>Halo Spring Boot</h1>
         <h2>Waktu saat ini : <span th:text="${waktu}">Senin, 5 Oct 2015 - 13:00</span></h2>
+        <h3>Pesan : <span th:text="*{pesan}?:''">Halo</span></h3>
     </body>
 </html>
