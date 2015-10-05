@@ -11,10 +11,15 @@
 * https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified
 * http://alexbilbie.com/2013/02/a-guide-to-oauth-2-grants/
 * https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
+* https://knpuniversity.com/screencast/oauth
+* http://bshaffer.github.io/oauth2-server-php-docs/overview/main-concepts/
 
-### Contoh Kode Program OAuth 2 dengan Spring ###
+
+### Contoh Kode Program OAuth 2 ###
 
 * https://github.com/endymuhardin/belajar-springoauth2
+* https://github.com/thephpleague/oauth2-client
+* http://getsparks.org/packages/oauth2/versions/HEAD/show
 
 ## Hari 1 ##
 
