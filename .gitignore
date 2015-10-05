@@ -1,0 +1,5 @@
+# MacOSX Ignore
+.DS_Store
+
+# Maven Ignore
+target
