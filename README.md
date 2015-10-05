@@ -17,6 +17,7 @@
 
 ### Contoh Kode Program OAuth 2 ###
 
+* https://github.com/artivisi/training-sso-oauth2
 * https://github.com/endymuhardin/belajar-springoauth2
 * https://github.com/thephpleague/oauth2-client
 * http://getsparks.org/packages/oauth2/versions/HEAD/show
