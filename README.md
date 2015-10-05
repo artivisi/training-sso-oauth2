@@ -4,6 +4,7 @@
 * endy.muhardin@gmail.com
 * http://software.endy.muhardin.com
 * http://youtube.com/user/artivisi
+* https://www.youtube.com/playlist?list=PLAx_QRVWQ-CyjYbvLWnYGEsmoWJyAIuvU
 
 ### Referensi ###
 
