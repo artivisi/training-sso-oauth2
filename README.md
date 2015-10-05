@@ -5,6 +5,13 @@
 * http://software.endy.muhardin.com
 * http://youtube.com/user/artivisi
 
+### Referensi ###
+
+* https://github.com/endymuhardin/belajar-springoauth2
+* https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified
+* http://alexbilbie.com/2013/02/a-guide-to-oauth-2-grants/
+* https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
+
 ## Hari 1 ##
 
 * Konsep OAuth 2.0
