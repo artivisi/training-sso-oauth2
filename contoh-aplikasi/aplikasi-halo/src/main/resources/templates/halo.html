@@ -11,6 +11,11 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
+        
+        <form name="f" th:action="@{/logout}" method="post">
+            <input type="submit" value="Logout" />
+        </form>
+        
         <h1>Halo Spring Boot</h1>
         <h2>Waktu saat ini : <span th:text="${waktu}">Senin, 5 Oct 2015 - 13:00</span></h2>
         <h3>Pesan : <span th:text="*{pesan}?:''">Halo</span></h3>
