@@ -1,4 +1,4 @@
-package com.artivisi.training.oauth2.halo.config;
+package com.artivisi.training.oauth2.authserver.config;
 
 import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;

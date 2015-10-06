@@ -1,4 +1,4 @@
-package com.artivisi.training.oauth2.halo.config;
+package com.artivisi.training.oauth2.authserver.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
