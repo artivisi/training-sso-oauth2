@@ -1,0 +1,25 @@
+1. Buka http://localhost:9090/info
+2. InfoController akan mengakses http://localhost:8080/api/halo
+   (resource server)
+3. Minta token ke http://localhost:10000/oauth/authorize
+   => http://localhost:10000/oauth/authorize?
+      client_id=xx&
+      redirect_uri=xx&
+      state=123
+4. Auth server, sudah login? Kalau belum, login dulu
+   => Spring security tanpa OAuth
+5. Tampil halaman authorize
+   - scope : read, approve?
+   - scope : write, approve?
+   scope bebas, boleh apa saja dan berapa saja
+   User approve
+6. Oleh auth server, diredirect ke redirectURI
+   Misal : http://localhost:9090/info?state=123&code=aaa123
+   Kembali ke aplikasi client (9090)
+7. Cek state
+8. Tukarkan code dengan token ke http://localhost:10000/oauth/token
+9. Mendapat token, misalnya token=abc123
+10. Request lagi ke resource server
+    http://localhost:8080/api/halo?access_token=abc123
+11. Resource server verifikasi token
+    http://localhost:10000/oauth/check_token?token=abc123
