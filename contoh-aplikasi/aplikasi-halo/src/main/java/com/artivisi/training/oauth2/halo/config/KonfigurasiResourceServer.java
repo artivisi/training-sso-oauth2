@@ -33,7 +33,9 @@ public class KonfigurasiResourceServer {
         @Override
         public void configure(HttpSecurity http) throws Exception {
             http.authorizeRequests()
-                    .antMatchers("/api/halo").hasRole("OPERATOR");
+                    .antMatchers("/api/halo").hasRole("OPERATOR")
+                    .antMatchers("/api/waktu").authenticated()
+                    ;
         }
     }
 }

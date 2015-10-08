@@ -38,4 +38,11 @@ public class HaloController {
         
         return data;
     }
+    
+    @CrossOrigin
+    @RequestMapping("/api/waktu")
+    @ResponseBody
+    public String waktu(){
+        return "{\"waktu\":\""+new Date().toString()+"\"}";
+    }
 }
