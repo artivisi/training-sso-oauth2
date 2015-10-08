@@ -20,7 +20,14 @@ and open the template in the editor.
             
             <hr>
             
+            <button ng-click="bukaLoginPage()">Login ke Server</button>
+            <button ng-click="ambilTokenDariUrl()">Ambil Token Dari Url</button>
             
+            <hr>
+            <button ng-click="requestKeResourceServer()">Request ke Resource Server</button>
+            <div>
+                {{responseDariServer}}
+            </div>
             
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>

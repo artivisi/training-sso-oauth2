@@ -67,7 +67,7 @@ public class KonfigurasiAuthorizationServer {
                         .scopes("read", "write")
                         .resourceIds(RESOURCE_ID)
                         .authorities("CLIENT")
-                        .redirectUris("http://localhost:8080/implicit-client.html")
+                        .redirectUris("http://localhost:7070/implicit/implicit-client.html")
                         .accessTokenValiditySeconds(60 * 60 * 24) // token berlaku seharian, besok harus login ulang
                     ;
         }
