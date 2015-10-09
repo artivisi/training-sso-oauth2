@@ -3,3 +3,6 @@
 
 # Maven Ignore
 target
+
+# Gradle Ignore
+build
